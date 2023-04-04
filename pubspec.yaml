@@ -1,0 +1,48 @@
+name: bloc_floor_get_it_project
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.3 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+  # relational database
+  floor: ^1.4.1
+
+  # connect server
+  retrofit: ^4.0.1
+
+  # state management
+  bloc_concurrency: ^0.2.1
+  flutter_bloc: ^8.1.2
+
+  # dependency injection
+  get_it: ^7.2.0
+
+  # ui loading
+  shimmer: ^2.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  retrofit_generator: ^6.0.0+1
+  floor_generator: ^1.4.1
+  build_runner: ^2.1.2
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
